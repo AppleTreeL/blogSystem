@@ -17,7 +17,7 @@ import java.sql.SQLException;
  */
 public class DBTools {
 
-    static private final String URL = "jdbc:mysql://localhost:3306/blogdemo";
+    static private final String URL = "jdbc:mysql://localhost:3306/blogdemo?useUnicode=true&characterEncoding=utf8";
     static private final String USER_NAME = "root";
     static private final String PASSWORD = "123";
     static private volatile DataSource DATASOURCE;
